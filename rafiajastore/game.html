@@ -1,0 +1,49 @@
+<link href="css/styles.css" rel="stylesheet" />
+<link href="css/custom.css" rel="stylesheet" />
+
+ <div id="navbar-placeholder"></div>
+<div class="provider-title">
+<h2 class="layanan-title">Pilih Game</h2>
+<p class="layanan-subtitle mb-5">Pilih Game terlebih dahulu buat lanjut cek harga</p>
+</div>
+
+ <div class="topup-container mb-5">
+  <div class="topup-card">
+    <h2 class="topup-title">Free Fire</h2>
+    <button class="topup-button" onclick="window.location.href='gamepage/freefire.html'">Cek Harga</button>
+  </div>
+  <div class="topup-card">
+    <h2 class="topup-title">Mobile Legend</h2>
+    <button class="topup-button" onclick="window.location.href='gamepage/mobilelegend.html'">Cek Harga</button>
+  </div>
+  <div class="topup-card">
+    <h2 class="topup-title" >PUBG Mobile</h2>
+    <button class="topup-button" onclick="window.location.href='gamepage/pubgmobile.html'">Cek Harga</button>
+  </div>
+  <div class="topup-card">
+    <h2 class="topup-title" >Magic Chess</h2>
+    <button class="topup-button" onclick="window.location.href='gamepage/magicchess.html'">Cek Harga</button>
+  </div>
+  
+</div>
+
+
+
+<div id="footer-placeholder"></div>
+ <script>
+        fetch("navbar.html")
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById("navbar-placeholder").innerHTML = data;
+            });
+
+        fetch("footer.html")
+            .then(res => res.text())
+            .then(data => {
+                document.getElementById("footer-placeholder").innerHTML = data;
+            });
+    </script>
+
+     <script src="js/scripts.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

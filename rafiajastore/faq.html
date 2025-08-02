@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Personal - Start Bootstrap Theme</title>
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Custom Google font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+  <!-- Bootstrap icons-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Core theme CSS (includes Bootstrap)-->
+  <link href="css/styles.css" rel="stylesheet" />
+  <link href="css/custom.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+
+
+
+
+
+</head>
+
+
+
+<!-- Navigation-->
+<nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+  <div class="container px-5">
+    <a class="navbar-brand fw-bolden text-primary custom-navbar-logo" href="index.html">
+      <img src="assets/navbarlogo.png" alt="Rafiaja Store Logo" height="36">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+        class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder" class="custom-navbar-text">
+        <li class="nav-item"><a class="nav-link custom-navbarheader-text custom-marginhp" href="index.html">Home</a>
+        </li>
+
+        <li class="nav-item dropdown custom-dropdown">
+          <a class="nav-link dropdown-toggle custom-navbarheader-text" href="#" id="dropdownLayanan" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Layanan <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15 " viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-chevron-down-icon lucide-chevron-down">
+              <path d="m6 9 6 6 6-6" />
+            </svg>
+
+
+          </a>
+          <ul class="dropdown-menu custom-dropdown-menu" aria-labelledby="dropdownLayanan">
+            <li><a class="dropdown-item" href="provider.html">Top Up Pulsa</a></li>
+            <li><a class="dropdown-item" href="providerpaketdata.html">Paket Data</a></li>
+            <li><a class="dropdown-item" href="listrikpln.html">Listrik PLN</a></li>
+            <li><a class="dropdown-item" href="transfer.html">Transfer Bank</a></li>
+            <li><a class="dropdown-item" href="ewallet.html">Top up E-Wallet</a></li>
+            <li><a class="dropdown-item" href="game.html">Top up Game</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a class="nav-link custom-navbarheader-text" href="syaratketentuan.html">Syarat
+            Ketentuan</a></li>
+        <li class="nav-item"><a class="nav-link custom-navbarheader-text" href="kontak.html">Kontak</a></li>
+        <li class="nav-item"><a class="nav-link custom-navbarheader-text" href="faq.html">FAQ</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<script>
+  document.querySelectorAll('.dropdown').forEach(function (dropdown) {
+    const toggle = dropdown.querySelector('[data-bs-toggle="dropdown"]');
+    const menu = dropdown.querySelector('.dropdown-menu');
+
+    dropdown.addEventListener('show.bs.dropdown', function () {
+      menu.classList.add('show');
+    });
+
+    dropdown.addEventListener('hide.bs.dropdown', function (e) {
+      e.preventDefault(); // cegah hide langsung
+      menu.classList.remove('show');
+      setTimeout(() => {
+        dropdown.classList.remove('show');
+      }, 300); // tunggu transisi selesai
+    });
+  });
+</script>
+
+
+
+<h2 class="layanan-title mt-5">Pertanyaan</h2>
+<p class="layanan-subtitle mb-5">Pertanyaan mengenai Rafiaja Store</p>
+<div class="faq-container">
+  <div class="faq-card">
+    <div class="faq-question">
+      <span>Kapan Waktu Operasional Rafiaja Store?</span>
+      <span class="icon">+</span>
+    </div>
+    <div class="faq-answer">
+      Operasional Rafiaja Store dari pukul 06.00 pagi hingga jam 22.00 setiap hari.
+    </div>
+  </div>
+
+  <div class="faq-card">
+    <div class="faq-question">
+      <span>Bagaimana Detil Garansi Uang Kembali itu?</span>
+      <span class="icon">+</span>
+    </div>
+    <div class="faq-answer">
+      Garansi uang kembali saat transaksi gagal atau saldo tidak masuk ke akun Customer (bukan kesalahan Customer)
+    </div>
+  </div>
+
+  <div class="faq-card">
+    <div class="faq-question">
+      <span>Apakah Bisa Transaksi Online Melalui Website Ini?</span>
+      <span class="icon">+</span>
+    </div>
+    <div class="faq-answer">
+      Tidak bisa. Website ini hanya berupa landing page untuk cek harga saja.
+    </div>
+  </div>
+
+  <div class="faq-card">
+    <div class="faq-question">
+      <span>Apakah Boleh Melakukan Hutang atau Bayar Nanti Untuk Transaksi Digital?</span>
+      <span class="icon">+</span>
+    </div>
+    <div class="faq-answer">
+      Tidak bisa. Untuk saat ini pihak Rafiaja Store belum bisa mendukung 'Bayar Nanti'.
+    </div>
+  </div>
+
+
+<div class="faq-card">
+  <div class="faq-question">
+    <span>Apakah ada batas maksimal untuk melakukan koplain transaksi</span>
+    <span class="icon">+</span>
+  </div>
+  <div class="faq-answer">
+    Pengguna hanya diberi waktu 1x24 jam setelalh transaksi dinyatakan berhasil, setelah batas waktu tersebut maka
+    komplain ditolak
+  </div>
+</div>
+
+<div class="faq-card">
+  <div class="faq-question">
+    <span>Bagaimana cara menghubungi CS jika ada kendala transaksi?</span>
+    <span class="icon">+</span>
+  </div>
+  <div class="faq-answer">
+    Pengguna bisa menghubungi melalui whatsapp agar ditindaklanjuti
+  </div>
+</div>
+
+</div>
+
+<script>const cards = document.querySelectorAll('.faq-card');
+
+  cards.forEach(card => {
+    const question = card.querySelector('.faq-question');
+    question.addEventListener('click', () => {
+      card.classList.toggle('active');
+      const icon = card.querySelector('.icon');
+      icon.textContent = card.classList.contains('active') ? '−' : '+';
+    });
+  });
+</script>
+</main>
+<div id="footer-placeholder"></div>
+<script>
+  fetch("navbar.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("navbar-placeholder").innerHTML = data;
+    });
+
+  fetch("footer.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("footer-placeholder").innerHTML = data;
+    });
+</script>
+</script>
+</main>
+<div id="footer-placeholder"></div>
+<script>
+  fetch("navbar.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("navbar-placeholder").innerHTML = data;
+    });
+
+  fetch("footer.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("footer-placeholder").innerHTML = data;
+    });
+</script>
+
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+<script src="js/custom.js"></script>
