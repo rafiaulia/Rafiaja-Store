@@ -271,7 +271,7 @@ padding: 0 20px  !important;
   padding-right: 20px;
 }
 
-.raf-sub {
+.raf-subtitle {
   font-size: 15px;
   margin-bottom: 12px;
   color: #222;
@@ -288,15 +288,10 @@ padding: 0 20px  !important;
 
 @media (max-width: 768px){
   .raf-judulutama{
-  font-size: 30px;
+  font-size: 35px;
   }
   .raf-subtitle{
     font-size: 17px;
-  font-weight: 500;
-  color: #000533;
-  margin-bottom: 30px;
-  
-  justify-content: center;
   }
 }
 
@@ -540,8 +535,8 @@ padding: 0 20px  !important;
 
 @media (max-width: 768px) {
   .telkomsel-cards-container {
-    margin-inline: 20px;
-
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 
@@ -645,15 +640,15 @@ padding: 0 20px  !important;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  gap: 10px;
  
   margin-top: 50px;
   margin-bottom: 100px;
 }
 @media (max-width: 768px) {
   .pricing-container{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 
