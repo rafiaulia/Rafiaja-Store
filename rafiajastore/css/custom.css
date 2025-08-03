@@ -163,7 +163,9 @@ padding: 0 20px  !important;
   }
 }
 
-
+.container-nama-ewallet{
+  gap: 8px 12px;
+}
 
 .layanan-grid {
   display: grid;
@@ -650,7 +652,7 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px 0px;
+  gap: 20px 10px;
  
   margin-top: 50px;
   margin-bottom: 100px;
@@ -1227,7 +1229,7 @@ i[data-lucide] svg {
   border-radius: 6px;
   font-size: 15px !important;
   color: #ffffff !important;
-  gap: 8px 12px;
+  
 }
 
 .kontak-intro{
