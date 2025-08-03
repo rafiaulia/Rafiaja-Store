@@ -286,6 +286,12 @@ padding: 0 20px  !important;
   justify-content: center;
 }
 
+@media (768px){
+  .raf-judulutama{
+  font-size: 30px;
+  }
+}
+
 .raf-subtitle {
   font-size: 20px;
   font-weight: 500;
@@ -791,8 +797,8 @@ padding: 0 20px  !important;
 
 @media (max-width: 768px) {
   .admin-wrapper{
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
   }
 }
 .admin-table th:nth-child(1),
