@@ -529,8 +529,9 @@ padding: 0 20px  !important;
   grid-template-columns: 1fr;
   justify-items: center;
   gap: 32px;
-  padding: 32px 0;
+  padding: 32px 16;
   margin-bottom: 150px;
+  
 }
 
 @media (max-width: 768px) {
@@ -554,7 +555,7 @@ body {
 
 .telkomsel-card {
   width: 100%;
-  width: 380px;
+  max-width: 360px;
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 4px 16px 0 rgba(0,0,0,0.16);
@@ -621,6 +622,11 @@ body {
   display: flex;
   align-items: center;
   gap: 6px;
+    flex-shrink: 1; /* Kalau pakai flex container */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
 }
 
 .telkomsel-card-btn:hover,
