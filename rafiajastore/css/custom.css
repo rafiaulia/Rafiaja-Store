@@ -535,9 +535,12 @@ padding: 0 20px  !important;
 
 @media (max-width: 768px) {
   .telkomsel-cards-container {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
+}
+body {
+  overflow-x: hidden;
 }
 
 
@@ -550,6 +553,7 @@ padding: 0 20px  !important;
 }
 
 .telkomsel-card {
+  width: 100%;
   width: 380px;
   background: #fff;
   border-radius: 16px;
