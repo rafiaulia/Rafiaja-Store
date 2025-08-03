@@ -163,9 +163,6 @@ padding: 0 20px  !important;
   }
 }
 
-.container-nama-ewallet{
-  gap: 8px 12px;
-}
 
 .layanan-grid {
   display: grid;
@@ -1227,6 +1224,7 @@ i[data-lucide] svg {
   display: inline-block;
   padding: 3px 8px;
   border-radius: 6px;
+  margin: 4px 6px; 
   font-size: 15px !important;
   color: #ffffff !important;
   
