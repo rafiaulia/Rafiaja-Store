@@ -303,6 +303,7 @@ padding: 0 20px  !important;
   justify-content: center;
 }
 
+/* Base button */
 .raf-btn {
   background-color: #ff8a00;
   color: white;
@@ -311,8 +312,26 @@ padding: 0 20px  !important;
   border-radius: 6px;
   font-weight: 600;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
 }
+
+/* Outline variant */
+.raf-btn--outline {
+  background-color: transparent;
+  color: #ff8a00;
+  border: 2px solid #ff8a00;
+}
+
+/* Hover effect */
+.raf-btn:hover {
+  background-color: #e67800;
+}
+
+.raf-btn--outline:hover {
+  background-color: #ff8a00;
+  color: white;
+}
+
 
 .raf-btn:hover {
   background-color: #b1b1b1;
